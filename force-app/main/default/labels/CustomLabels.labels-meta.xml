@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Data_Masking_From_Email</fullName>
+        <categories>DataMasking</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Data Masking From Email</shortDescription>
+        <value></value>
+        <description>Org-Wide Email Address used as the sender for Data Masking batch notifications. Must match an address registered under Setup - Email - Organization-Wide Addresses. Leave blank to use the default Salesforce no-reply address.</description>
+    </labels>
+    <labels>
+        <fullName>Data_Masking_Notification_Emails</fullName>
+        <categories>DataMasking</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Data Masking Notification Emails</shortDescription>
+        <value></value>
+        <description>Comma-separated list of email addresses that receive the Data Masking batch completion notification (e.g. admin@example.com, team@example.com).</description>
+    </labels>
+</CustomLabels>
